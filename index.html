@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+   <header>
+    <h1>Meu Portfólio</h1>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#cursos">Cursos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+    <div class="imagem">
+        <img src="" alt="sobre mim">
+        
+        
+    </div>
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Eu sou Kauã Santos, tenho 17 anos e sou apaixonado por programação. Tenho experiência em HTML, que é uma linguagem de marcação fundamental para estruturar o conteúdo de páginas web. Com o HTML, você define a forma como os elementos (como cabeçalhos, parágrafos, listas e imagens) são exibidos em um navegador.</p>
+    <p>Também gosto muito de PHP, uma linguagem usada para criar páginas web dinâmicas e interativas. Com o PHP, você pode manipular dados, realizar operações complexas e interagir com bancos de dados.</p>
+</section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <div class="skills">
+            <div class="skill">
+                <i class="fas fa-code"></i>
+                <h3>Desenvolvimento Web</h3>
+                <p>HTML, CSS, JavaScript</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Design Gráfico</h3>
+                <p>Photoshop, Illustrator</p>
+            </div>
+            <div class="skill">
+                <i class="fas fa-database"></i>
+                <h3>Banco de Dados</h3>
+                <p>MySQL, MongoDB</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="carousel">
+            <div class="carousel-item">
+                <img src="imagens/projeto1.jpg" alt="Projeto 1">
+                <h3>Linguagem php</h3>
+                <p>É uma linguagem de script amplamente usada e de código aberto, especialmente adequada para o desenvolvimento web.<br> O PHP é executado no servidor, gerando HTML que é enviado para o navegador.<P><br> O cliente recebe os resultados da execução desse script, mas não sabe qual era o código fonte.</P> Você pode configurar seu servidor web para processar todos os arquivos HTML com o PHP, mantendo o código oculto.</p>
+
+                <p>Simplicidade e Recursos Avançados O PHP é extremamente simples para iniciantes, mas oferece muitos recursos avançados para programadores profissionais.<br> Ele é usado para gerenciar conteúdo dinâmico, bancos de dados e até mesmo construir sites de comércio eletrônico.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="cursos">
+        <h2>Cursos</h2>
+        <div class="courses">
+            <div class="course">
+                <img src="imagens/curso1.jpg" alt="Curso 1">
+                <h3>Curso 1</h3>
+                <h1>Desenvolvedor Web Front-end</h1>
+                <p>Responsável por desenvolver toda a parte visual de uma página web usando HTML, CSS e JavaScript.
+                Utiliza bibliotecas e frameworks como jQuery, React e Angular para criar interatividade e melhorar a experiência do usuário.</p>
+               
+               <p> Foca na interface do usuário e na experiência de navegação.
+                <br><br>
+                Desenvolvedor Web Back-end:
+                Lida com a parte interna de um software.
+                Responsável pela integração com bancos de dados, conexões com APIs e requisições para a página.
+                Trabalha com linguagens como PHP, Python, Ruby, Java, entre outras..</p>
+            </div>
+            <div class="course">
+                <img src="imagens/curso2.jpg" alt="Curso 2">
+                <h3>Curso 2</h3>
+                <p>O design gráfico é uma área criativa e essencial que envolve a criação de soluções visuais para diversos meios de comunicação. Os designers gráficos utilizam uma combinação de tipografia, fotografia, ilustração e layout para comunicar ideias e informações de forma esteticamente agradável e funcional.</p>
+                <p>Criação de Logotipos e Marcas:
+                Os designers gráficos desenvolvem logotipos e marcas que representam empresas, produtos ou serviços.</p>
+                
+                <p>Design de Embalagens:
+                Eles criam embalagens atraentes para produtos, considerando tanto a estética quanto a funcionalidade.</p>
+
+                <p>Layout de Páginas
+                Definem a aparência e formato de páginas de jornais, revistas e outros materiais impressos.</p>
+
+               <p> Design para Web:
+                Criam visualmente sites, blogs, banners e outros elementos para a internet.</p>
+            </div>
+            <div class="course">
+                <img src="imagens/curso3.jpg" alt="Curso 3">
+                <h3>Curso 3</h3>
+                <p>Descrição do curso 3.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contact-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Kauã Santos. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
